@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="32sp"
+        android:layout_marginBottom="5dp"
+        android:text="Nama Hewan"
+        android:textStyle="bold" />
+<!--TextView adalah elemen yang berfungsi untuk menampilkan output berupa text.-->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<!--ListView adalah view group android yang digunakan untuk menampilkan daftar item secara vertical yang dapat di scroll apabila data yang ditampilkan melebihi panjang layar-->
+
+
+    </ListView>
+
+</LinearLayout>
